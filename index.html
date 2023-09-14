@@ -1,27 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="./"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script type="module" src="./json/app.js" defer></script>
     <title>Delicie</title>
 </head>
+
 <body>
     <header class="header">
 
-        <div class="titulo">
+        <div class="sombra">
+            <div class="titulo">
 
-            <h1 class="title">
-                Venha conhecer sua comida preferida
-            </h1>
-
-            <div class="home_bar">
-                <img src="./img/Vector.jpg" alt="home_bars" class="home">
+                <h1 class="title">
+                    Venha conhecer sua comida preferida
+                </h1>
+    
+                <div class="home_bar">
+                    <img src="./img/Vector.jpg" alt="home_bars" class="home">
+                </div>
+    
             </div>
+        </div>
+        
+    </header>
 
+    <main class="main">
+        <div class="slide">
+            <div class="container-slide">
+                <div class="action-button" id="previous">&laquo</div>
+                <div class="container-items" id="container-items"></div>
+                <div class="action-button" id="next">&raquo</div>
+            </div>
+        </div>
+        
+
+        <div class="apresentar">
+            <h1>
+                Venha conhecer sua comida preferida 
+            </h1>
         </div>
 
-    </header>
+        <div class="eu">
+            <di class="cards">
+                <div class="card" ">
+                    <img src="./img/coxinha.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Coxinha de Frango</h5>
+                        <p class="card-text">2 litros de água
+                            1 kg de farinha de trigo peneirada
+                            2 caldos de galinha
+                            1 colher de margarina
+                            1 colher rasa de sal
+                            1 colher de colorífico</p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                    
+                </div>
+            </di>
+            <di class="cards">
+                <div class="card" ">
+                    <img src="./img/coxinha.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Coxinha de Frango</h5>
+                        <p class="card-text">2 litros de água
+                            1 kg de farinha de trigo peneirada
+                            2 caldos de galinha
+                            1 colher de margarina
+                            1 colher rasa de sal
+                            1 colher de colorífico</p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                    
+                </div>
+    
+            </di>
+            <di class="cards">
+                <div class="card" ">
+                    <img src="./img/coxinha.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Coxinha de Frango</h5>
+                        <p class="card-text">2 litros de água
+                            1 kg de farinha de trigo peneirada
+                            2 caldos de galinha
+                            1 colher de margarina
+                            1 colher rasa de sal
+                            1 colher de colorífico</p>
+                        <a href="#" class="btn btn-primary">Ver mais</a>
+                    </div>
+                    
+                </div>
+    
+            </di>
+        </div>
+     
+        
+
+    </main>
 </body>
+
 </html>
