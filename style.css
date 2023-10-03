@@ -137,7 +137,32 @@ body{
     justify-content: space-around;
 }
 
-.card{
+.cards{
     width: 18rem;
     display: flex;
+}
+
+@media ( max-width:647px){
+    .card{
+        display: flex;
+        width: 100%;
+        height: max-content;
+        justify-content: space-around;
+    }
+    
+    .cards{
+        width: 18rem;
+        display: flex;
+    }
+
+    .eu{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 45px;
+        padding-left: 45px;
+        gap: 35px;
+
+    }
+    
 }
